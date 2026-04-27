@@ -1,0 +1,82 @@
+# ApiV1CreativePoolsGet200Response
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Data** | Pointer to [**[]ApiV1CreativePoolsGet200ResponseDataInner**](ApiV1CreativePoolsGet200ResponseDataInner.md) |  | [optional] 
+**Total** | Pointer to **int32** |  | [optional] 
+
+## Methods
+
+### NewApiV1CreativePoolsGet200Response
+
+`func NewApiV1CreativePoolsGet200Response() *ApiV1CreativePoolsGet200Response`
+
+NewApiV1CreativePoolsGet200Response instantiates a new ApiV1CreativePoolsGet200Response object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewApiV1CreativePoolsGet200ResponseWithDefaults
+
+`func NewApiV1CreativePoolsGet200ResponseWithDefaults() *ApiV1CreativePoolsGet200Response`
+
+NewApiV1CreativePoolsGet200ResponseWithDefaults instantiates a new ApiV1CreativePoolsGet200Response object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetData
+
+`func (o *ApiV1CreativePoolsGet200Response) GetData() []ApiV1CreativePoolsGet200ResponseDataInner`
+
+GetData returns the Data field if non-nil, zero value otherwise.
+
+### GetDataOk
+
+`func (o *ApiV1CreativePoolsGet200Response) GetDataOk() (*[]ApiV1CreativePoolsGet200ResponseDataInner, bool)`
+
+GetDataOk returns a tuple with the Data field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetData
+
+`func (o *ApiV1CreativePoolsGet200Response) SetData(v []ApiV1CreativePoolsGet200ResponseDataInner)`
+
+SetData sets Data field to given value.
+
+### HasData
+
+`func (o *ApiV1CreativePoolsGet200Response) HasData() bool`
+
+HasData returns a boolean if a field has been set.
+
+### GetTotal
+
+`func (o *ApiV1CreativePoolsGet200Response) GetTotal() int32`
+
+GetTotal returns the Total field if non-nil, zero value otherwise.
+
+### GetTotalOk
+
+`func (o *ApiV1CreativePoolsGet200Response) GetTotalOk() (*int32, bool)`
+
+GetTotalOk returns a tuple with the Total field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetTotal
+
+`func (o *ApiV1CreativePoolsGet200Response) SetTotal(v int32)`
+
+SetTotal sets Total field to given value.
+
+### HasTotal
+
+`func (o *ApiV1CreativePoolsGet200Response) HasTotal() bool`
+
+HasTotal returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
