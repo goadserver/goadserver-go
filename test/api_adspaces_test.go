@@ -34,20 +34,6 @@ func Test_goadserver_AdspacesAPIService(t *testing.T) {
 
 	})
 
-	t.Run("Test AdspacesAPIService ApiV1AdspacesIdActivePatch", func(t *testing.T) {
-
-		t.Skip("skip test")  // remove to run test
-
-		var id int32
-
-		resp, httpRes, err := apiClient.AdspacesAPI.ApiV1AdspacesIdActivePatch(context.Background(), id).Execute()
-
-		require.Nil(t, err)
-		require.NotNil(t, resp)
-		assert.Equal(t, 200, httpRes.StatusCode)
-
-	})
-
 	t.Run("Test AdspacesAPIService ApiV1AdspacesIdGet", func(t *testing.T) {
 
 		t.Skip("skip test")  // remove to run test

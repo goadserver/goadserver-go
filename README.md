@@ -194,7 +194,6 @@ Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *AccountAPI* | [**ApiV1AccountGet**](docs/AccountAPI.md#apiv1accountget) | **Get** /api/v1/account | Identity check — returns the authenticated user + scopes of the calling key.
 *AdspacesAPI* | [**ApiV1AdspacesGet**](docs/AdspacesAPI.md#apiv1adspacesget) | **Get** /api/v1/adspaces | List ad zones owned by the caller.
-*AdspacesAPI* | [**ApiV1AdspacesIdActivePatch**](docs/AdspacesAPI.md#apiv1adspacesidactivepatch) | **Patch** /api/v1/adspaces/{id}/active | Activate or deactivate an adspace.
 *AdspacesAPI* | [**ApiV1AdspacesIdGet**](docs/AdspacesAPI.md#apiv1adspacesidget) | **Get** /api/v1/adspaces/{id} | Get a single adspace.
 *CampaignsAPI* | [**ApiV1CampaignsGet**](docs/CampaignsAPI.md#apiv1campaignsget) | **Get** /api/v1/campaigns | List the caller&#39;s campaigns across all types (or one type).
 *CampaignsAPI* | [**ApiV1CampaignsRonCampaignIdAdsAdIdZoneBidsGet**](docs/CampaignsAPI.md#apiv1campaignsroncampaignidadsadidzonebidsget) | **Get** /api/v1/campaigns/ron/{campaignId}/ads/{adId}/zone-bids | List per-zone bid overrides for a RON ad.
